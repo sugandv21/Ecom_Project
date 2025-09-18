@@ -1,4 +1,3 @@
-// src/pages/Login.jsx
 import React, { useContext, useState } from "react";
 import { AuthContext } from "../contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
@@ -93,3 +92,4 @@ export default function Login() {
     </div>
   );
 }
+
