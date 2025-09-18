@@ -1,4 +1,3 @@
-# shop/views.py
 from rest_framework import viewsets, permissions, filters, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -120,3 +119,4 @@ class OrderViewSet(viewsets.ModelViewSet):
         order.status = status_val
         order.save(update_fields=["status"])
         return Response({"detail": "Status updated"}, status=status.HTTP_200_OK)
+
