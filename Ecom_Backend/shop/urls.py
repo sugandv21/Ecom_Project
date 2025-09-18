@@ -1,4 +1,3 @@
-# shop/urls.py
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .views import ProductViewSet, CategoryViewSet, OrderViewSet, RegisterAPIView, MyTokenView, CurrentUserAPIView
@@ -16,3 +15,4 @@ urlpatterns = [
     path("auth/token/", MyTokenView.as_view(), name="token_obtain_pair"),   
     path("auth/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
 ]
+
