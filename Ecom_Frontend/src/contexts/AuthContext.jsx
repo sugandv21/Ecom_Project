@@ -24,15 +24,13 @@ export function AuthProvider({ children }) {
       return null;
     }
   });
-
-  // Save tokens helper - internal only
+\
   const persistTokens = (tokens) => {
     setAuthTokensInternal(tokens);
     try {
       if (tokens) localStorage.setItem("tokens", JSON.stringify(tokens));
       else localStorage.removeItem("tokens");
     } catch {
-      // ignore storage errors
     }
   };
 
@@ -102,9 +100,8 @@ export function AuthProvider({ children }) {
         return;
       }
 
-      // quick decode for instant UI
       try {
-        const payload = jwt_decode(authTokens.access);
+        const payload = jwtDecode(authTokens.access);
         if (mounted) setUser((prev) => ({ ...(prev || {}), id: payload.user_id || payload.id, username: payload.username || null }));
       } catch {
         // invalid token - clear
@@ -200,3 +197,4 @@ export function AuthProvider({ children }) {
     </AuthContext.Provider>
   );
 }
+
