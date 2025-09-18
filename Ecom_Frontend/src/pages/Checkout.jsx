@@ -1,4 +1,3 @@
-// src/pages/Checkout.jsx
 import React, { useState, useContext } from "react";
 import axiosClient from "../api/axiosClient";
 import { AuthContext } from "../contexts/AuthContext";
@@ -201,3 +200,4 @@ export default function Checkout() {
     </div>
   );
 }
+
