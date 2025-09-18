@@ -1,4 +1,3 @@
-// src/pages/Cart.jsx
 import React, { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import axiosClient from "../api/axiosClient";
@@ -188,3 +187,4 @@ export default function Cart() {
     </div>
   );
 }
+
