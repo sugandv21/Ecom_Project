@@ -1,4 +1,3 @@
-# shop/models.py
 from django.db import models
 from django.contrib.auth import get_user_model
 
@@ -55,3 +54,4 @@ class OrderItem(models.Model):
 
     def line_total(self):
         return self.price_snapshot * self.quantity
+
