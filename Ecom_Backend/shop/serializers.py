@@ -1,4 +1,3 @@
-# shop/serializers.py
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
 from .models import Category, Product, Order, OrderItem
@@ -200,3 +199,4 @@ class OrderCreateSerializer(serializers.ModelSerializer):
         order.total_price = total
         order.save()
         return order
+
