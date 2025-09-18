@@ -1,0 +1,322 @@
+[
+  {
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "title": "Cotton T-Shirt",
+      "subtitle": "Comfortable daily wear",
+      "description": "100% pure cotton, breathable fabric",
+      "price": "499.00",
+      "stock": 50,
+      "rating": "4.3",
+      "image": "",
+      "created": "2025-01-01T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "title": "Denim Jeans",
+      "subtitle": "Slim fit",
+      "description": "Durable denim with stretch comfort",
+      "price": "1299.00",
+      "stock": 40,
+      "rating": "4.5",
+      "image": "",
+      "created": "2025-01-02T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 3,
+    "fields": {
+      "category": 2,
+      "title": "Sports Shoes",
+      "subtitle": "Running shoes",
+      "description": "Lightweight, cushioned sole",
+      "price": "2499.00",
+      "stock": 30,
+      "rating": "4.6",
+      "image": "",
+      "created": "2025-01-03T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "title": "Formal Shirt",
+      "subtitle": "Slim fit",
+      "description": "Perfect for office wear",
+      "price": "999.00",
+      "stock": 25,
+      "rating": "4.2",
+      "image": "",
+      "created": "2025-01-04T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 5,
+    "fields": {
+      "category": 3,
+      "title": "Leather Wallet",
+      "subtitle": "Genuine leather",
+      "description": "Compact and stylish wallet",
+      "price": "699.00",
+      "stock": 100,
+      "rating": "4.7",
+      "image": "",
+      "created": "2025-01-05T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 6,
+    "fields": {
+      "category": 3,
+      "title": "Analog Watch",
+      "subtitle": "Classic design",
+      "description": "Water resistant with leather strap",
+      "price": "1999.00",
+      "stock": 20,
+      "rating": "4.4",
+      "image": "",
+      "created": "2025-01-06T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 7,
+    "fields": {
+      "category": 2,
+      "title": "Bluetooth Earbuds",
+      "subtitle": "Noise cancellation",
+      "description": "Long battery life with fast charging",
+      "price": "3499.00",
+      "stock": 60,
+      "rating": "4.5",
+      "image": "",
+      "created": "2025-01-07T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 8,
+    "fields": {
+      "category": 3,
+      "title": "Backpack",
+      "subtitle": "Waterproof",
+      "description": "Spacious with laptop compartment",
+      "price": "1499.00",
+      "stock": 45,
+      "rating": "4.3",
+      "image": "",
+      "created": "2025-01-08T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 9,
+    "fields": {
+      "category": 3,
+      "title": "Sunglasses",
+      "subtitle": "UV protection",
+      "description": "Stylish and lightweight",
+      "price": "899.00",
+      "stock": 70,
+      "rating": "4.1",
+      "image": "",
+      "created": "2025-01-09T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 10,
+    "fields": {
+      "category": 2,
+      "title": "Casual Sneakers",
+      "subtitle": "Everyday wear",
+      "description": "Trendy sneakers for all-day comfort",
+      "price": "1799.00",
+      "stock": 35,
+      "rating": "4.4",
+      "image": "",
+      "created": "2025-01-10T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 11,
+    "fields": {
+      "category": 1,
+      "title": "Hoodie",
+      "subtitle": "Winter wear",
+      "description": "Warm fleece hoodie",
+      "price": "1199.00",
+      "stock": 50,
+      "rating": "4.5",
+      "image": "",
+      "created": "2025-01-11T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 12,
+    "fields": {
+      "category": 1,
+      "title": "Track Pants",
+      "subtitle": "Athletic fit",
+      "description": "Stretchable fabric for sports",
+      "price": "899.00",
+      "stock": 55,
+      "rating": "4.2",
+      "image": "",
+      "created": "2025-01-12T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 13,
+    "fields": {
+      "category": 1,
+      "title": "Kurta",
+      "subtitle": "Ethnic wear",
+      "description": "Cotton kurta for festive occasions",
+      "price": "999.00",
+      "stock": 40,
+      "rating": "4.3",
+      "image": "",
+      "created": "2025-01-13T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 14,
+    "fields": {
+      "category": 1,
+      "title": "Saree",
+      "subtitle": "Silk blend",
+      "description": "Elegant saree with zari border",
+      "price": "2499.00",
+      "stock": 20,
+      "rating": "4.6",
+      "image": "",
+      "created": "2025-01-14T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 15,
+    "fields": {
+      "category": 3,
+      "title": "Handbag",
+      "subtitle": "Leather finish",
+      "description": "Stylish handbag for women",
+      "price": "1599.00",
+      "stock": 30,
+      "rating": "4.4",
+      "image": "",
+      "created": "2025-01-15T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 16,
+    "fields": {
+      "category": 3,
+      "title": "Perfume",
+      "subtitle": "Long-lasting fragrance",
+      "description": "Premium fragrance for daily use",
+      "price": "1299.00",
+      "stock": 25,
+      "rating": "4.5",
+      "image": "",
+      "created": "2025-01-16T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 17,
+    "fields": {
+      "category": 3,
+      "title": "Laptop Stand",
+      "subtitle": "Adjustable height",
+      "description": "Ergonomic design for comfort",
+      "price": "899.00",
+      "stock": 40,
+      "rating": "4.2",
+      "image": "",
+      "created": "2025-01-17T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 18,
+    "fields": {
+      "category": 2,
+      "title": "Power Bank",
+      "subtitle": "10000mAh",
+      "description": "Fast charging portable power bank",
+      "price": "1499.00",
+      "stock": 60,
+      "rating": "4.5",
+      "image": "",
+      "created": "2025-01-18T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 19,
+    "fields": {
+      "category": 2,
+      "title": "Bluetooth Speaker",
+      "subtitle": "Portable",
+      "description": "High bass portable speaker",
+      "price": "1999.00",
+      "stock": 30,
+      "rating": "4.6",
+      "image": "",
+      "created": "2025-01-19T10:00:00Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 20,
+    "fields": {
+      "category": 2,
+      "title": "Smartwatch",
+      "subtitle": "Fitness tracking",
+      "description": "Tracks steps, heart rate, and sleep",
+      "price": "2999.00",
+      "stock": 25,
+      "rating": "4.7",
+      "image": "",
+      "created": "2025-01-20T10:00:00Z",
+      "is_active": true
+    }
+  }
+]

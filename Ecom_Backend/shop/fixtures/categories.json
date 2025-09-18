@@ -1,0 +1,26 @@
+[
+  {
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {
+      "name": "Fashion",
+      "slug": "fashion"
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {
+      "name": "Electronics",
+      "slug": "electronics"
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 3,
+    "fields": {
+      "name": "Accessories",
+      "slug": "accessories"
+    }
+  }
+]
