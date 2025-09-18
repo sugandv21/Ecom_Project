@@ -24,7 +24,7 @@ export function AuthProvider({ children }) {
       return null;
     }
   });
-\
+
   const persistTokens = (tokens) => {
     setAuthTokensInternal(tokens);
     try {
@@ -197,4 +197,5 @@ export function AuthProvider({ children }) {
     </AuthContext.Provider>
   );
 }
+
 
